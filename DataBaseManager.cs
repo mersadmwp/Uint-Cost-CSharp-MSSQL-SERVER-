@@ -9,8 +9,8 @@ namespace EadeNegarTools.EadeNegarProductManager
 {
     public class DataBaseManager
     {
-        public static string ConnectionString { get; set; } = "Data Source=win5.morvahost.com,1436;Initial Catalog=eadenega_enp;Persist Security Info=True;User ID=eadenega_enp_admin;Password=~7!GJAjvsz8z6iss;";
-        public DataBaseManager(string _connectionString = "Data Source=win5.morvahost.com,1436;Initial Catalog=eadenega_enp;Persist Security Info=True;User ID=eadenega_enp_admin;Password=~7!GJAjvsz8z6iss;")
+        public static string ConnectionString { get; set; } = "";
+        public DataBaseManager(string _connectionString = "")
         {
             ConnectionString = _connectionString;
         }
